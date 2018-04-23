@@ -20,10 +20,38 @@ body {
   color: green;
   display: flex;
   flex-direction: column;
-  /* height: 50%;
-  width: 50%; */
+  /* height: 50%; */
+  width: 100%;
   /* background-color: #ccc; */
-  font-size: 13px;
+  font-size: 20px;
+}
+#result {
+  margin-top: 20px;
+  font-size: 50px;
+}
+@media only screen and (max-width: 600px) {
+  #info {
+    font-size: 12px;
+  }
+  #result {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  #info {
+    font-size: 12px;
+  }
+  #result {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  #info {
+    font-size: 10px;
+  }
+  #result {
+    font-size: 30px;
+  }
 }
 
 
